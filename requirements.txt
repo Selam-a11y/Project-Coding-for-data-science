@@ -1,6 +1,0 @@
-imdbpy
-pandas
-numpy
-matplotlib
-streamlit
-
