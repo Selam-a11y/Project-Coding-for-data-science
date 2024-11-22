@@ -27,7 +27,7 @@ selected_columns = df.iloc[:, [1, 2, 6, 9, 10, 11, 12, 13]]
 # data_wrangler.py
 
 #Save the extracted columns to a new CSV file
-selected_columns.to_csv("//Users/selammahmudali/Desktop/Project-Coding-for-data-science/imdb_top_1000_selected_columns.csv", index=False)
+selected_columns.to_csv("//Users/selammahmudali/Desktop/CODING PROJECT/imdb_top_1000_selected_columns.csv", index=False)
 
 print("New CSV file with selected columns has been created.")
 
