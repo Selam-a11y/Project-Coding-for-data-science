@@ -1,1 +1,0 @@
-def calculate_score(user_answer, correct_answer):    if user_answer == correct_answer:        return 1  # Correct answer    else:        return 0  # Incorrect answer
