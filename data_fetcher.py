@@ -1,1 +1,0 @@
-import imdb# Create an instance of the IMDB classia = imdb.IMDb()def fetch_movie_data(movie_name):    # Search for a movie by name    movies = ia.search_movie(movie_name)    if movies:        movie = movies[0]  # Get the first result        ia.update(movie)        return movie    else:        return None#print(fetch_movie_data("The Avengers"))
