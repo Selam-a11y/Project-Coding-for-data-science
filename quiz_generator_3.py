@@ -8,7 +8,7 @@ Created on Thu Nov 21 19:44:59 2024
 
 import pandas as pd
 import random
-import numpy as np  # Importing numpy
+import numpy as np  
 from dataframe import load_movie_data
 
 def generate_quiz(difficulty):

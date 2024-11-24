@@ -9,12 +9,6 @@ Created on Thu Nov 21 19:11:46 2024
 #import numpy as np
 import pandas as pd
 
-# These are just some display settings
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_colwidth', None)
-
-# Display floating points in a more readable format
-pd.options.display.float_format = '{:,.2f}'.format
 # Read in the movies data first
 df = pd.read_csv("/Users/selammahmudali/Desktop/Project-Coding-for-data-science/imdb_top_1000.csv.xls")
 
@@ -38,4 +32,3 @@ def load_movie_data():
     return df
 
 
-#print("function Valid")
